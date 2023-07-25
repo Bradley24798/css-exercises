@@ -1,0 +1,35 @@
+body{
+  height: 100vh;
+  background-color: #22222f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.first-btn {
+  background-color:rgb(0, 0, 0);
+  color: white;
+}
+
+.second-btn{
+  background-color: rgb(212, 198, 34);
+  color: black;
+}
+
+button {
+  margin: 2px;
+  border: 3px solid hsl(90deg, 22%, 23%);
+  font-size: 28px;
+  font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+.container {
+  width: 338px;
+  height: 55px;
+  background-color: #fff;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 0 4px;
+}
